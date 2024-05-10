@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Castaway</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./images/IMAGE.png" alt="" class="logo" />
+      <nav class="navigate">
+        <ul>
+          <li><a class="spawn-to" href="#home">Home</a></li>
+          <li><a class="spawn-to" href="#episodes">Episodes</a></li>
+          <li><a class="spawn-to" href="#about">About</a></li>
+          <li><a class="spawn-to" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="podcast">
+        <div class="imgage-right">
+          <img src="./images/photo1.png" alt="photo1" />
+          <img
+            src="./images/for_photo1.png"
+            alt="For photo1"
+            class="for-photo1"
+          />
+        </div>
+        <div class="info">
+          <p class="info-text">
+            Take your podcast to the
+            <span class="next-word"
+              >next
+              <img
+                src="./images/for_next_word.png"
+                alt="'Next' word"
+                class="for-next-word"
+            /></span>
+            <span class="level-word">level</span>
+          </p>
+          <div class="links-to-listen">
+            <p>Listen on</p>
+            <ul class="links">
+              <li>
+                <a href="https://open.spotify.com/genre/0JQ5DAB3zgCauRwnvdEQjJ"
+                  ><img src="./images/icons/spotify.png" alt="spotify"
+                /></a>
+              </li>
+              <li>
+                <a href="https://pocketcasts.com/"
+                  ><img src="./images/icons/pocketCasts.png" alt="pocket casts"
+                /></a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/uholmov/41-inukitty"
+                  ><img src="./images/icons/soundcloud.png" alt="soundcloud"
+                /></a>
+              </li>
+              <li>
+                <a href="https://www.apple.com/apple-podcasts/"
+                  ><img
+                    src="./images/icons/applePodcasts.png"
+                    alt="apple podcasts"
+                /></a>
+              </li>
+              <li>
+                <a href="https://overcast.fm/"
+                  ><img src="./images/icons/overcast.png" alt="overcast"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="episodes" id="episodes">
+      <div class="header-episodes">
+        <h2 class="header-episodes-text">Latest episodes</h2>
+        <button class="header-episodes-btn">View all episodes</button>
+      </div>
+      <div class="episodes-items">
+        <div class="episodes-item">
+          <img src="./images/episodes/Frame3.png" alt="image episode 3" />
+          <div class="episodes-item-info">
+            <div class="ganre">Gear</div>
+            <div class="number-of-episodes">Episode 3</div>
+            <h3 class="header-of-episodes">
+              Should you get outboard audio gear?
+            </h3>
+            <p class="description">
+              Is hardware really worth it when it comes to podcasting? The
+              answer is...it depends. Here’s our reasons on why you might want
+              to consider picking something up.
+            </p>
+            <button class="episode-details-btn">View Episode Details</button>
+          </div>
+        </div>
+
+        <div class="episodes-item">
+          <img src="./images/episodes/Frame2.png" alt="image episode 2" />
+          <div class="episodes-item-info">
+            <div class="ganre">Tips & Tricks</div>
+            <div class="number-of-episodes">Episode 2</div>
+            <h3 class="header-of-episodes">
+              Mic tricks to take you to the next level
+            </h3>
+            <p class="description">
+              Stop rolling with those default settings on your mic. These small
+              tweaks will take you from sounding good to great.
+            </p>
+            <button class="episode-details-btn">View Episode Details</button>
+          </div>
+        </div>
+
+        <div class="episodes-item">
+          <img src="./images/episodes/Frame1.png" alt="image episode 1" />
+          <div class="episodes-item-info">
+            <div class="ganre">Gear</div>
+            <div class="number-of-episodes">Episode 1</div>
+            <h3 class="header-of-episodes">The best microphone under $200</h3>
+            <p class="description">
+              With so many microphones on the market, how are you supposed to
+              know what’s the best? Take a look at our top picks.
+            </p>
+            <button class="episode-details-btn">View Episode Details</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-info">
+        <a href="#" class="meeting"
+          ><div class="meeting-arrow">
+            <img src="./images/arrow.png" alt="arrow" />
+          </div>
+          Meet your host</a
+        >
+        <h2 class="about-info-name">Jacob Paulaner</h2>
+        <p class="about-info-description">
+          Jacob has a background in audio engineering, and has been podcasting
+          since the early days. <br /><br />He’s here to help you level up your
+          game by sharing everything he’s learned along the way.
+        </p>
+      </div>
+      <img src="./images/photo2.png" alt="about image" class="about-img" />
+    </section>
+
+    <section class="subscribe">
+      <div class="subscribe-text">
+        <p>Email Newsletter</p>
+        <h3>Subscribe for updates</h3>
+      </div>
+      <form action="submit" class="subscribe-form">
+        <input type="text" placeholder="Name" class="subscribe-form-inpt" />
+        <input type="text" placeholder="Email" class="subscribe-form-inpt" />
+        <button class="subscribe-form-bnt">Submit</button>
+      </form>
+      <img src="./images/for_subscribes.png" alt="for subscribe" class="for-subscribe" />
+    </section>
+
+    <section class="reviews">
+      <ul class="reviews-cards">
+        <li class="reviews-cards-item">
+          <div class="rating-stars">
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+          </div>
+          <p class="reviews-cards-item-review">
+            I can’t recommend this podcast enough
+          </p>
+          <p class="reviews-cards-item-name">Betty Lacey</p>
+        </li>
+
+        <li class="reviews-cards-item">
+          <div class="rating-stars">
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+          </div>
+          <p class="reviews-cards-item-review">
+            Jacob is the best in the business
+          </p>
+          <p class="reviews-cards-item-name">Adam Driver</p>
+        </li>
+
+        <li class="reviews-cards-item">
+          <div class="rating-stars">
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+          </div>
+          <p class="reviews-cards-item-review">A wealth of audio knowledge</p>
+          <p class="reviews-cards-item-name">Marcus Brown</p>
+        </li>
+
+        <li class="reviews-cards-item">
+          <div class="rating-stars">
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+          </div>
+          <p class="reviews-cards-item-review">Every episode is a gem!</p>
+          <p class="reviews-cards-item-name">Jessica Knowl</p>
+        </li>
+
+        <li class="reviews-cards-item">
+          <div class="rating-stars">
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+          </div>
+          <p class="reviews-cards-item-review">
+            Whoa whoa, let me take some notes!
+          </p>
+          <p class="reviews-cards-item-name">Scott Adams</p>
+        </li>
+
+        <li class="reviews-cards-item">
+          <div class="rating-stars">
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+            <img src="./images/star.png" alt="rating-star" />
+          </div>
+          <p class="reviews-cards-item-review">
+            I’ve upped my game considerably since I started listening
+          </p>
+          <p class="reviews-cards-item-name">Steven Blast</p>
+        </li>
+      </ul>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="sotial">
+        <img src="./images/IMAGE.png" alt="Castaway" />
+        <div class="sotial-links">
+          <a href="https://www.instagram.com/"
+            ><img src="./images/sotial/instagram.png" alt="Instagram"
+          /></a>
+          <a href="https://www.twitter.com/"
+            ><img src="./images/sotial/twitter.png" alt="Twitter"
+          /></a>
+          <a href="https://www.facebook.com/"
+            ><img src="./images/sotial/facebook.png" alt="facebook"
+          /></a>
+        </div>
+      </div>
+
+      <nav class="navigate-footer">
+        <ul>
+          <li><a class="spawn-to" href="#home">Home</a></li>
+          <li><a class="spawn-to" href="#episodes">Episodes</a></li>
+          <li><a class="spawn-to" href="#about">About</a></li>
+          <li><a class="spawn-to" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <ul class="other">
+        <li><a href="#">Style Guide</a></li>
+        <li><a href="#">Instructions</a></li>
+        <li><a href="#">Changelog</a></li>
+        <li><a href="#">Credit</a></li>
+        <li><a href="#">Powered by Webflow</a></li>
+        <li><a href="#">Licenses</a></li>
+      </ul>
+
+      <ul class="links-footer">
+        <li>
+          <a href="https://open.spotify.com/genre/0JQ5DAB3zgCauRwnvdEQjJ"
+            ><img src="./images/icons/spotify.png" alt="spotify"
+          /></a>
+        </li>
+        <li>
+          <a href="https://pocketcasts.com/"
+            ><img src="./images/icons/pocketCasts.png" alt="pocket casts"
+          /></a>
+        </li>
+        <li>
+          <a href="https://soundcloud.com/uholmov/41-inukitty"
+            ><img src="./images/icons/soundcloud.png" alt="soundcloud"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.apple.com/apple-podcasts/"
+            ><img src="./images/icons/applePodcasts.png" alt="apple podcasts"
+          /></a>
+        </li>
+        <li>
+          <a href="https://overcast.fm/"
+            ><img src="./images/icons/overcast.png" alt="overcast"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
